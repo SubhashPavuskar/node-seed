@@ -1,0 +1,22 @@
+{
+  "name": "nodejsfirst",
+  "version": "1.0.0",
+  "description": "this is a simple nodejs program",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "first",
+    "hello"
+  ],
+  "author": "ramkumar",
+  "license": "ISC",
+  "devDependencies": {
+    "line-by-line": "^0.1.5"
+  },
+  "dependencies": {
+    "express": "*",
+    "body-parser": "*"
+  }
+}
