@@ -1,9 +1,7 @@
 /**
  * Created by Ramkumar on 11/10/2016.
  */
-
 var Calculator = require('./calculator');
-
 console.log('Welcome to the World of Node!');
 
 var calculator = new Calculator();
