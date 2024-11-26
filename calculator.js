@@ -4,6 +4,8 @@
 function Calculator() {
 }
 
+
+
 Calculator.prototype.add = function () {
     var parameters = arguments;
     var result = 0;
