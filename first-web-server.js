@@ -3,7 +3,6 @@
  */
 
 var http = require('http');
-
 var DEFAULT_PORT = 9090;
 var HTTP_OK = 200;
 var portNumber = process.env.PORT_NUMBER || DEFAULT_PORT;
