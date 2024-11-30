@@ -9,7 +9,6 @@ event.on('calc-done',
         console.log('Calculation Done ... Callback ... ' +
             JSON.stringify(data));
     });
-
 event.once('calc-done',
     function () {
         console.log('Only once calculation done handle!');
