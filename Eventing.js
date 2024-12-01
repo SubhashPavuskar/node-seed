@@ -10,6 +10,8 @@ event.on('calc-done',
             JSON.stringify(data));
     });
 
+
+
 event.once('calc-done',
     function () {
         console.log('Only once calculation done handle!');
