@@ -15,7 +15,6 @@ event.once('calc-done',
         console.log('Only once calculation done handle!');
     });
 
-
 setInterval(function () {
     event.emit('calc-done', {
         value: Math.floor(Math.random() * ( 1000 - 1) + 1)
