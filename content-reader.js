@@ -12,6 +12,7 @@ fs.exists(fileName, function (status) {
             encoding: 'UTF-8'
         });
 
+        
         reader.on('line', function (line) {
             if(line) {
                 console.log('Current Line : ' + line);
