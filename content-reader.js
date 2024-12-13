@@ -11,7 +11,6 @@ fs.exists(fileName, function (status) {
         var reader = new LineReader(fileName, {
             encoding: 'UTF-8'
         });
-
         
         reader.on('line', function (line) {
             if(line) {
