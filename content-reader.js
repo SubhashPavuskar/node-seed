@@ -17,6 +17,7 @@ fs.exists(fileName, function (status) {
                 console.log('Current Line : ' + line);
             }
         });
+
         
         reader.on('end', function () {
             console.log('Reader Completed!');
