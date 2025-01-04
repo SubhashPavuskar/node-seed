@@ -12,8 +12,7 @@ Calculator.prototype.add = function () {
     }
 
 
-    
-    
+        
     return result;
 };
 module.exports = Calculator;
