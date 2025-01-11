@@ -12,7 +12,6 @@ Calculator.prototype.add = function () {
     }
 
 
-
     
     return result;
 };
