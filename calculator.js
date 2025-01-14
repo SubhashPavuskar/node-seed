@@ -10,6 +10,8 @@ Calculator.prototype.add = function () {
     for (var index in parameters) {
         result += parameters[index];
     }
-          return result;
+          
+    
+    return result;
 };
 module.exports = Calculator;
