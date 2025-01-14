@@ -11,7 +11,6 @@ Calculator.prototype.add = function () {
         result += parameters[index];
     }
 
-
        
     return result;
 };
