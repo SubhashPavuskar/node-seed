@@ -10,7 +10,6 @@ var portNumber = process.env.PORT_NUMBER || 9090;
 var webFolder = __dirname + "/web";
 
 
-
 app.use('/', express.static(webFolder));
 app.listen(portNumber);
 
