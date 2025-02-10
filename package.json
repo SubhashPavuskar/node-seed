@@ -11,8 +11,7 @@
     "hello"
   ],
 
-  
-  "author": "ramkumar",
+    "author": "ramkumar",
   "license": "ISC",
   "devDependencies": {
     "line-by-line": "^0.1.5"
