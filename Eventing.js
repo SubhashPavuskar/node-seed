@@ -10,7 +10,6 @@ event.on('calc-done',
     });
 
 
-
 event.once('calc-done',
     function () {
         console.log('Only once calculation done handle!');
