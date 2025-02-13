@@ -4,6 +4,7 @@
 
 
 
+
 var fs = require('fs');
 var LineReader = require('line-by-line');
 var fileName = './contents/data';
