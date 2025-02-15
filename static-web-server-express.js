@@ -11,7 +11,6 @@ var webFolder = __dirname + "/web";
 
 
 
-
 app.use('/', express.static(webFolder));
 app.listen(portNumber);
 
