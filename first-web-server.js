@@ -11,7 +11,6 @@ var header = {
     transferEncoding: 'chunked',
     maxAge: 1000
 };
-
 var server = http.createServer(
     function (request, response) {
         response.writeHead(HTTP_OK, header);
