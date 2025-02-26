@@ -14,7 +14,6 @@ var header = {
 
 
 
-
 var server = http.createServer(
     function (request, response) {
         response.writeHead(HTTP_OK, header);
