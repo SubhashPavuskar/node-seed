@@ -16,6 +16,5 @@ var server = http.createServer(
         response.write('<h1>Welcome to the World of Node Server!</h1>');
         response.end();
     });
-
 server.listen(portNumber);
 console.log('Server is Ready!');
