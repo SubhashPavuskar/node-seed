@@ -22,4 +22,5 @@ fs.exists(fileName, function (status) {
             console.log('Reader Completed!');
         });
     }
+    
 });
