@@ -1,3 +1,4 @@
+
 /**
  * Created by Ramkumar on 11/10/2016.
  */
@@ -14,6 +15,7 @@ fs.exists(fileName, function (status) {
         reader.on('line', function (line) {
             if(line) {
                 console.log('Current Line : ' + line);
+                
             }
         });
 
