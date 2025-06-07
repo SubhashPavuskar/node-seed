@@ -11,7 +11,6 @@ console.log('Output : ' + output);
 
 //require('./Eventing');
 
-require('./content-reader');
-
+require('./content-reader')
 
 
