@@ -1,6 +1,4 @@
-/**
- * Created by Ramkumar on 11/10/2016.
- */
+
 var http = require('http');
 var DEFAULT_PORT = 9090;
 var HTTP_OK = 200;
