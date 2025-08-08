@@ -21,7 +21,8 @@ fs.exists(fileName, function (status) {
         reader.on('end', function () {
             console.log('Reader Completed!');
         });
-            }
+            
+    }
     
 });
 
