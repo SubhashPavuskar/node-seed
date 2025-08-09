@@ -6,6 +6,7 @@ var fs = require('fs');
 var LineReader = require('line-by-line');
 var fileName = './contents/data';
 
+
 fs.exists(fileName, function (status) {
     if (status) {
         var reader = new LineReader(fileName, {
