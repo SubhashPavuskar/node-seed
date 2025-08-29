@@ -1,4 +1,3 @@
-
 function Calculator() {
 }
 Calculator.prototype.add = function () {
