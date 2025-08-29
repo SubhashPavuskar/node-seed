@@ -1,7 +1,4 @@
 
-/**
- * Created by Ramkumar on 11/10/2016.
- */
 function Calculator() {
 }
 Calculator.prototype.add = function () {
